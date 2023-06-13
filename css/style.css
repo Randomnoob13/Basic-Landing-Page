@@ -1,0 +1,172 @@
+/* OVERALL */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+#flex-container{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+[id*='row']{
+    width: 100%;
+    height: 20lvh;
+    
+border: 1px solid black;
+}
+
+
+#row01 , #row02{
+
+    height: 50lvh;
+}
+
+#row01{
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+/* ROW 1*/
+#header-nav{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+    height: 10%;
+    align-items: center;
+}
+/* NAV */
+#header-nav p{
+    margin: 0;
+}
+
+
+#header-nav ul{
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header-nav li{
+    display: inline-block
+   
+}
+
+/* CONTENT */
+#content{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+
+#header-image{
+  background-image: url("https://placehold.co/2000x600");
+  width: 70%;
+  height: 50%;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+#text{
+    width: 30%;
+    height: 50%;
+}
+
+#text h1{
+    margin: 0;
+}
+
+#button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    height: 20%;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ROW 2 */
+#row02-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+#box-container{
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+[id*='box0']{
+    width: 150px;
+    height:150px;
+    border: 2px solid #3882F6;
+    border-radius: 9px;
+}
+
+[class*="box-col"]{
+    width: 150px;
+    height:150px;
+    text-align: justify;
+}
+
+/* ROW 3 */
+
+#row03{
+    height: 50lvh;
+   background-color: #E5E7EB;
+}
+
+#citation{
+    width: 100%;
+    height: 100%;
+    font-size: 36px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#citation cite{
+    width: 50%;
+}
+
+#citation p{
+    position: absolute;
+    bottom: 15%;
+    right: 27.5%;
+}
+
+#row04{
+height:   40lvh;
+}
+
+#row05{
+    height: 10lvh;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 36px;
+}
